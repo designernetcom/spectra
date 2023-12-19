@@ -1,0 +1,111 @@
+table {
+	border-collapse: collapse;
+	}
+
+	table, td, th {
+	border: 1px solid black;
+	}
+
+	table {
+
+	border-collapse: collapse;
+	width: 100%;
+	}
+
+	table td, table th {
+	border: 1px solid rgb(34, 33, 33);
+	padding: 8px;
+
+
+	}
+	table{overflow-x:scroll;width:100%}
+	table tr:nth-child(even){background-color: #f2f2f2;}
+
+	table tr:hover {background-color: #ddd;}
+
+	table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	/* background-color: #4CAF50; */
+	color: #000;
+	}
+
+    .table-responsive {
+        min-height: .01%;
+        overflow-x: initial;
+        }
+    
+        table{overflow-x:scroll;}
+        .team-single-item .team-item-thumbnail-area:before {
+            border-radius: 50%;
+        }
+        .team-single-item:hover .team-single-social {
+            bottom: 100px;
+            visibility: visible;
+            opacity: 1;
+            left: 60px;
+        }
+        .team-single-item .team-single-social a {
+            color: #fff;
+            border: 1px solid #ddd;
+            line-height: 42px;
+            font-size: 15px;
+            width: 100%;
+            margin-right: 10px;
+            height: 41px;
+            text-align: center;
+            border-radius: 0%;
+        }
+        .table-bordered th, .table-bordered td {
+            border: 1px solid #ffffff;
+        }
+        .table-bordered th, .table-bordered td {
+                border: 1px solid #0c0c0cb8;
+        }
+        .table {
+            box-shadow: 0px 0px 10px #000;
+        }
+        table tr:nth-child(even) {
+            background-color: #fff !important;
+            color: #000;
+            font-size: 16px;
+            text-align: center;
+            font-weight: 500;
+        }
+        
+        .table-striped tbody tr:nth-of-type(odd) {
+            background-color: #bdcdec !important;
+            color: #000;
+            font-size: 16px;
+            text-align: center;
+            font-weight: 500;
+        }
+        table tr:hover {
+            background-color: #d42521;
+        }
+        b {
+            font-weight: 700;
+        }
+        .table-striped>tbody>tr:nth-of-type(odd) {
+            --bs-table-accent-bg: #fff;
+        }
+		.table th, .table td {
+            padding: 0.2rem 0.1rem !important;
+            text-align: left;
+		}
+        .table>:not(caption)>*>* {
+            padding: 1.0rem 0.5rem !important;
+        }
+        .table-hover>tbody>tr:hover {
+            background-color: #198b19cc !important;
+            color: #fff !important;
+        }
+@media screen and (max-width: 767px) {
+    .table-responsive {
+      
+        border: 1px solid #1e1b1b;
+    }
+}
+      
+        
